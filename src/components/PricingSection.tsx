@@ -66,7 +66,7 @@ const PricingSection = () => {
                 ))}
               </ul>
 
-              <a href="https://seguro.educores.com.br/r/5OJI5NN4FV" target="_blank" rel="noopener noreferrer" className="bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-lg hover:shadow-xl text-base font-bold w-full sm:text-sm h-14 rounded-lg px-8 lg:text-lg">
+              <a href="https://seguro.educores.com.br/r/5OJI5NN4FV" target="_blank" rel="noopener noreferrer" className="bg-secondary text-center grid justify-center items-center text-secondary-foreground hover:bg-secondary/90 shadow-lg hover:shadow-xl text-base font-bold w-full sm:text-sm h-14 rounded-lg lg:text-lg">
                 🛒 QUERO O PACOTE BÁSICO
               </a>
             </CardContent>
@@ -101,7 +101,7 @@ const PricingSection = () => {
               </div>
             </CardHeader>
 
-            <CardContent className="p-6">
+            <CardContent className="p-6 w-full">
               <div className="text-sm text-gray-600 font-rounded mb-4 text-center">
                 Tudo do Pacote Básico +
               </div>
@@ -119,11 +119,7 @@ const PricingSection = () => {
                     isBonus: true,
                   },
                   {
-                    text: "🎁 BÔNUS 3: 10 Versículos Ilustrados",
-                    isBonus: true,
-                  },
-                  {
-                    text: "🎁 BÔNUS 4: Devocional Bíblico Semanal",
+                    text: "🎁 BÔNUS 3: Alfabeto Ilustrado",
                     isBonus: true,
                   },
                 ].map((benefit, index) => (
@@ -146,9 +142,13 @@ const PricingSection = () => {
                 ))}
               </ul>
 
-              <a href="https://seguro.educores.com.br/r/1RJODPP4U1" target="_blank" rel="noopener noreferrer" className="bg-accent-yellow text-accent-yellow-foreground hover:bg-accent-yellow/90 shadow-lg hover:shadow-xl text-base font- w-full sm:text-base">
+              <div className="w-full my-4">
+              <a href="https://seguro.educores.com.br/r/1RJODPP4U1" target="_blank" rel="noopener noreferrer" className="bg-accent-yellow justify-center items-center grid text-center text-accent-yellow-foreground hover:bg-accent-yellow/90 shadow-lg hover:shadow-xl text-base font-bold w-full sm:text-sm h-14 rounded-lg lg:text-lg">
                 ⭐ QUERO O PACOTE PREMIUM
               </a>
+
+              </div>
+
 
               <div className="text-center mt-3 text-sm text-gray-600 font-rounded">
                 +500 pessoas já escolheram este pacote
